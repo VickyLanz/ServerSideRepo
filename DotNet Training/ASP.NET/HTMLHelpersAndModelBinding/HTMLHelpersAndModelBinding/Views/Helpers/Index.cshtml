@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Billing Details";
+}
+<h2>@ViewBag.Ttitle</h2>
+<h2>ProductName: @ViewBag.Name</h2>
+<h2>Bill Amount: @ViewBag.BillAmount</h2>
+<h2>Discount: @ViewBag.Discount</h2>
+@*<h2>Total: @ViewBag.Total</h2>
+@{ 
+
+    Html.BeginForm("Calculate", "Helpers", FormMethod.Post);
+       @:Productname @Html.TextBox("txtname")<br />
+      @:Quantity @Html.TextBox("txtquantity")<br />
+      @:Price @Html.TextBox("txtprice")<br />
+       <input type="submit" value="Submit" />
+       Html.EndForm();
+}*@
+<h2>2'nd Method</h2>
+@{
+    using (Html.BeginForm("Index", "Helpers", FormMethod.Post))
+    {
+        @:Productname @Html.TextBox("txtname")<br />
+        @:Quantity @Html.TextBox("txtquantity")<br />
+        @:Price @Html.TextBox("txtprice")<br />
+        <input type="submit" value="Submit" />
+        Html.EndForm();
+    }
+}
+
+
+

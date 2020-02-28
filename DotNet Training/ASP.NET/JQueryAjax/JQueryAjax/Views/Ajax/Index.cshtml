@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Ajax.ActionLink("Click Here to get Current time", "GetCurrentTime", "Ajax",
+                  new AjaxOptions
+                  {
+                      UpdateTargetId = "idCurrentTime",
+                      InsertionMode = InsertionMode.Replace,
+                      HttpMethod = "Get",
+                      LoadingElementId="divMessage"
+                  })
+<div id="idCurrentTime"></div>
+
+<div id="divMessage" style="border:none;display:none;margin:auto;">Wait For 5 seconds</div>
+<hr />

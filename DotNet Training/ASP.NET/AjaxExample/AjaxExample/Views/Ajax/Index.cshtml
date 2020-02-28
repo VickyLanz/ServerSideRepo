@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@Html.Partial("ToggleView");
+<h2>Index</h2>
+@Ajax.ActionLink("Click Here to get Current time", "GetTime", "Ajax",
+                  new AjaxOptions
+                  {
+                      UpdateTargetId = "idTime",
+                      InsertionMode = InsertionMode.Replace,
+                      HttpMethod = "Get",
+                      LoadingElementId = "divMessage"
+                  })
+<div id="idTime"></div>
+
+<div id="divMessage" style="border:none;display:none;margin:auto;">Wait For 5 seconds</div>
+<hr />

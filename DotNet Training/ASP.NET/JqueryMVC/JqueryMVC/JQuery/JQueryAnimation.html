@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Animation</title>
+</head>
+<body>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").animate({ left: '150px', height: '+=400px', width: '+=150px' });
+            });
+        });
+    </script>
+    <button id="button">Start Animation</button>
+  <!--  <div background-color="Red" position="absol"-->
+    <div style="background-color:palevioletred;position:absolute;height:120px;width:120px;color:blueviolet"> This is animated One</div><br />
+    
+</body>
+</html>

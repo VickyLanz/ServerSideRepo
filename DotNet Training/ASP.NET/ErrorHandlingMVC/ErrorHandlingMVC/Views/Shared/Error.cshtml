@@ -1,0 +1,14 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
+}   
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">Zero Divide Error</h2>
+<h3 style="color:darkgray"><b>Error Message Trace:</b></h3>
+<h4 style="color:red">@Html.DisplayFor(e => e.Exception.Message)</h4><br />
+<h3 style="color:darkgray"><b>Controller Name:</b></h3 >
+<h4 style="color:red">@Html.DisplayFor(e => e.ControllerName)</h4><br />
+<h3 style="color:darkgray"><b>Action Method:</b></h3>
+<h4 style="color:red">@Html.DisplayFor(e => e.ActionName)</h4><br />

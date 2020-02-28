@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>JQuery Exqmple</title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $("p").hide();
+            })
+            $("#show").click(function () {
+                $("p").show();
+            })
+           
+        });
+        
+        
+    </script>
+</head>
+<body>
+    <h2>This Page Contains JQuery Functionality</h2>
+    <p1>This is the first paragraph and below Lines are going to disappear</p1><br />
+    <p>This is the second paragraph</p>
+    <button id="hide">Hide It</button>
+    <button id="show">Show The Hidden content</button>
+</body>
+</html>

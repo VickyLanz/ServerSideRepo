@@ -1,0 +1,19 @@
+﻿@model HTMLHelpersAndModelBinding.Models.SavingsBank
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<h3><b><i>The Simple Interest Is =@ViewBag.SI</i></b></h3>
+@{ 
+    using (Html.BeginForm("CalculateInterest", "Bank", FormMethod.Post))
+    {
+       @Html.Label("PrincipalAmount", "Principal Amount");
+        @Html.TextBoxFor(sb => sb.PrincipalAmount);<br />
+        @Html.Label("TimeInYears", "Time In Years");
+        @Html.TextBoxFor(sb => sb.TimeInYears);<br />
+        @Html.Label("InterestRate", "Interest Rate");
+        @Html.TextBoxFor(sb => sb.InterestRate);
+        <input type="submit" value="Submit"/>
+    }
+}

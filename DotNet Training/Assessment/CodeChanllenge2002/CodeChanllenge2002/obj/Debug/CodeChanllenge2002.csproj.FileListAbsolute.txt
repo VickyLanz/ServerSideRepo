@@ -1,0 +1,7 @@
+C:\Users\BLTuser.BLT033\source\Assessment\CodeChanllenge2002\CodeChanllenge2002\bin\Debug\CodeChanllenge2002.exe.config
+C:\Users\BLTuser.BLT033\source\Assessment\CodeChanllenge2002\CodeChanllenge2002\bin\Debug\CodeChanllenge2002.exe
+C:\Users\BLTuser.BLT033\source\Assessment\CodeChanllenge2002\CodeChanllenge2002\bin\Debug\CodeChanllenge2002.pdb
+C:\Users\BLTuser.BLT033\source\Assessment\CodeChanllenge2002\CodeChanllenge2002\obj\Debug\CodeChanllenge2002.csprojResolveAssemblyReference.cache
+C:\Users\BLTuser.BLT033\source\Assessment\CodeChanllenge2002\CodeChanllenge2002\obj\Debug\CodeChanllenge2002.csproj.CoreCompileInputs.cache
+C:\Users\BLTuser.BLT033\source\Assessment\CodeChanllenge2002\CodeChanllenge2002\obj\Debug\CodeChanllenge2002.exe
+C:\Users\BLTuser.BLT033\source\Assessment\CodeChanllenge2002\CodeChanllenge2002\obj\Debug\CodeChanllenge2002.pdb

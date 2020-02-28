@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Fade In Fade Out</title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+   
+</head>
+<body>
+    <h2><b><i>Fade In And Fade Out Page</i></b></h2>
+    <script>
+        $(document).ready(function () {
+            $("#1fadein").click(function () {
+                $("#div1").fadeIn();
+            })
+            $("#2fadein").click(function () {
+                $("#div2").fadeIn("slow");
+            })
+            $("#3fadein").click(function () {
+                $("#div3").fadeIn(9000);
+            })
+            $("#1fadeout").click(function () {
+                $("#div1").fadeOut();
+            })
+            $("#2fadeout").click(function () {
+                $("#div2").fadeOut("slow");
+            })
+            $("#3fadeout").click(function () {
+                $("#div3").fadeOut(9000);
+            });
+
+        });
+    </script>
+    <div id="div1" style="width:80px;height:80px;display:none;background-color:red"></div><br />
+    <div id="div2" style="width:80px;height:80px;display:none;background-color:blue"></div><br />
+    <div id="div3" style="width:80px;height:80px;display:none;background-color:green"></div><br />
+
+
+    <button id="1fadein">1'st Fade In</button>
+    <button id="2fadein">2'st Fade In</button>
+    <button id="3fadein">3'st Fade In</button>
+
+    <button id="1fadeout">1'st Fade Out</button>
+    <button id="2fadeout">2'st Fade Out</button>
+    <button id="3fadeout">3'st Fade Out</button>
+</body>
+</html>

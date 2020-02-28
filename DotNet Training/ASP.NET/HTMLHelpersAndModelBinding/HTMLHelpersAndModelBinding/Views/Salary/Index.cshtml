@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<h2><i>Salary of Employee</i></h2>
+<div>
+    <h3><b>Salary : @ViewBag.Salary</b></h3>
+    <h3><b>Incentive : @ViewBag.Incentive</b></h3>
+    <h3><b>Total Salary : @ViewBag.Total</b></h3>
+</div>
+<h2>Salary Calculator</h2>
+@{ 
+    using (Html.BeginForm("Salary", "Salary", FormMethod.Post))
+    {
+      @:No of Days Worked  @Html.TextBox("nod")<br />
+      @:Salary Per Day @Html.TextBox("spd")<br />
+      @:Incentive Percentage @Html.TextBox("icp")<br />
+      <input type="submit" value="Submit"/>
+    }
+}
+

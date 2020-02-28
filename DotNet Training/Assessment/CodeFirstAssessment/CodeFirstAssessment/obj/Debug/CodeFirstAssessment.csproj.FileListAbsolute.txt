@@ -1,0 +1,14 @@
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\bin\Debug\CodeFirstAssessment.exe.config
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\bin\Debug\CodeFirstAssessment.exe
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\bin\Debug\CodeFirstAssessment.pdb
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\bin\Debug\EntityFramework.dll
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\bin\Debug\EntityFramework.xml
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\obj\Debug\CodeFirstAssessment.csprojResolveAssemblyReference.cache
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\obj\Debug\CodeFirstAssessment.csproj.CoreCompileInputs.cache
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\obj\Debug\CodeFirstAssessment.exe
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\obj\Debug\CodeFirstAssessment.pdb
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\obj\Debug\CodeFirstAssessment.Migrations.DataBaseCreated.resources
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\obj\Debug\CodeFirstAssessment.csproj.GenerateResource.Cache
+C:\Users\BLTuser.BLT033\source\Assessment\CodeFirstAssessment\CodeFirstAssessment\obj\Debug\CodeFirstAssessment.Migrations.Values.resources
